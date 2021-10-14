@@ -34,7 +34,7 @@ def main():
     print('Transforming data from File for Table_India')
     idf = transform_data(df, 'IND')
     print('Data successfully transformed for Table_India')
-    print('Intialising Sqlite connection')
+    print('Initialising Sqlite connection')
     load_data(idf, 'Table_India')
     udf = transform_data(df, 'USA')
     print('Successfully loaded Table_India')
